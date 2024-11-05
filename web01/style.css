@@ -1,0 +1,629 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "M PLUS 1",sans-serif;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+}
+:root{
+    --font-color:rgb(124, 122, 122);
+    --font-weight:600;
+
+}
+.teslalogo{
+    height: 20px;
+    width: 90px;
+    margin: 1rem ;
+    position: absolute;
+    top: -3px;
+    left: 15px;
+}
+.navbar{
+    height: 50px;
+    width: 100px;
+    background-color: none;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    
+}
+.center-nav{
+    height: 2rem;
+    flex: 8;
+
+}
+.right-nav{
+    flex: 3;
+    margin: 0px;
+    display: flex;
+    position: relative;
+}
+.right-nav-1{
+    position: relative;
+    left: 490px;
+
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 570px;
+    top: -1px;
+}
+
+.nav-list{
+    margin: 0 0.5rem;
+}
+.nav-list >a{
+    text-decoration: none;
+    width: 2rem;
+    color: rgb(233, 228, 228);
+    padding: 6px 7px;
+    font-weight: var(--font-weight);
+    font-size: 1rem;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    
+}
+.nav-list >a:hover{
+    background-color: rgb(129, 126, 126);
+    border-radius: 10px;
+}
+
+
+ .background{
+    width: 1889px;
+    height: 980px;
+    background-size: 100%;
+    
+    }
+    .buttons{
+        position: absolute;
+        left: 870px;
+        bottom: 625px;
+        background-color: white;
+        width: 270px;
+        padding: 9px;
+        border-radius: 10px;
+
+    }
+    .header{
+        position: absolute;
+        left: 900px;
+        bottom: 700px;
+        color: rgb(221, 188, 103);
+        font-family: "M PLUS 1",sans-serif;
+        font-size: 49px;
+        font-weight: 1200;
+        letter-spacing: 1px;
+        }
+
+   .list-1{
+    display: flex;
+    list-style: none;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+   }     
+   .background-2{
+    width: 1889px;
+    height: 980px;
+    background-size: 100%;
+    
+    
+
+   }
+   .header-container{
+    color: rgb(245, 241, 241);
+    
+   }
+   .header-1{
+    position: absolute;
+    left: 900px;
+    bottom: -150px;
+    font-size: 45px;
+    
+   }
+   .font-2{
+    position: absolute;
+    left: 900px;
+    bottom: -190px;
+    text-decoration: underline;
+    font-size: 30px;
+   }
+   .font-3{
+    position: absolute;
+    left: 930px;
+    bottom: -210px;
+    font-size: 15px;
+   }
+ .buttons-1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 700px;
+    bottom: -980px;
+ }
+ .buttons-1 a{
+    margin: 10px;
+    height: 40px;
+    width: 15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+     .btn1{
+        background-color: rgb(27, 119, 216);
+        color: white;
+
+     }
+     .btn2{
+        background-color: white;
+        color: black;
+     }
+     .background-3{
+        width: 1889px;
+        height: 980px;
+     }
+
+     .header-3{
+     position: absolute;
+     bottom: -1135px;
+     left: 800px;
+     font-size: 45px;
+
+     }
+     .font-4{
+      position: absolute;
+      bottom: -1180px;
+      left: 800px;
+      font-size: 35px;
+      text-decoration: underline;
+}
+    .font-5{
+        position: absolute;
+        bottom: -1200px;
+        left: 830px;
+        font-size: 15px;
+    }
+    .header-container-3{
+        color: white;
+    }
+    .buttons-5{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 750px;
+        bottom: -1960px;
+
+    }
+    .navbarrr{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        position: relative;
+        left: 760px;
+        padding: 13px;
+    }
+
+     .buttons-5 a{
+
+        margin: 10px;
+        height: 40px;
+        width: 15rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+     .btn4{
+        background-color: rgb(27, 119, 216);
+        color: white;
+     }
+     .btn5{
+        background-color: white;
+        color: black;
+     }
+   .background-8{
+    width: 1889px;
+    height: 980px;
+    
+   }
+   .header-8{
+    position: absolute;
+    left: 800px;
+    bottom: -2120px;
+    font-size: 45px;
+    color: white;
+
+   }
+   .font-8{
+    position: absolute;
+    left: 800px;
+    bottom: -2150px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+   }
+   .font-9{
+    position: absolute;
+    left: 800px;
+    bottom: -2175px;
+    text-decoration: underline;
+    font-size: 15px;
+    color: white;
+   }
+   .font-10{
+    position: absolute;
+    left: 800px;
+     bottom: -2195px;
+     text-decoration: underline;
+     font-size: 15px;
+     color: white;
+}
+ .buttons-8{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 750px;
+    bottom: -2940px;
+ }
+ .buttons-8 a{
+    margin: 10px;
+        height: 40px;
+        width: 15rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .btn8{
+            color: white;
+            background-color: rgb(27, 119, 216);
+        }
+        .btn9{
+            color: black;
+            background-color: white;
+        }
+        .background-11{
+            width: 1889px;
+            height: 980px;
+        }
+        .header-13{
+           position: absolute;
+           left: 800px;
+           bottom: -3100px;
+           font-size: 45px;
+           color: white;
+
+        }
+        .font-13{
+           position: absolute;
+            left: 800px;
+            bottom: -3135px;
+            color: white;
+            font-size: 35px;
+        }
+        .font-14{
+            position: absolute;
+            left: 800px;
+            bottom: -3155px;
+            text-decoration: underline;
+            font-size: 15px;
+            color: white;
+        }
+        .buttons-13{
+            display: flex;
+            justify-content: center;
+        position: absolute;
+        left: 750px;
+        bottom: -3920px;
+        }
+        .buttons-13 a{
+            margin: 10px;
+        height: 40px;
+        width: 15rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .btn13{
+            color: black;
+            background-color: rgb(27, 119, 216);
+            
+        }
+        .btn14{
+            color: black;
+            background-color: white;
+        }
+      .background-15{
+        width: 1889px;
+        height: 980px;
+      }
+      .background-16{
+
+        position: absolute;
+        left: 800px;
+        bottom: -4227px;
+      }
+      .buttons-15{
+        display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 750px;
+    bottom: -4910px;
+      }
+
+    .buttons-15 a{
+        margin: 10px;
+        height: 40px;
+        width: 15rem;
+        
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn15{
+        background-color: black;
+        color: white;
+    }
+    .btn16{
+        background-color: black;
+        color: white;
+    }
+    .background-17{
+        width: 1889px;
+        height: 980px;
+    }
+    .header-17{
+        position: absolute;
+        left: 800px;
+        bottom: -5090px;
+        font-size: 50px;
+        color: white;
+    }
+    .font-17{
+        position: absolute;
+        left: 805px;
+        bottom: -5130px;
+        font-size: 25px;
+        text-decoration: underline;
+        color: white;
+    }
+    .buttons-18{
+        display: flex;
+            justify-content: center;
+        position: absolute;
+        left: 750px;
+        bottom: -5895px;
+    }
+    .buttons-18 a{
+        margin: 10px;
+        height: 40px;
+        width: 15rem;
+        
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+    }
+     .btn18{
+        color: white;
+        background-color: rgb(27, 119, 216);
+     }
+     .btn19{
+        color: black;
+        background-color: white;
+
+     }
+     .background-20{
+        width: 1889px;
+    height: 980px;    
+ }
+ .header-20{
+    position: absolute;
+    left: 800px;
+    bottom: -6050px;
+    font-size: 50px;
+    color: white;
+
+ }
+ .font-20{
+    position: absolute;
+    left: 650px;
+    bottom: -6075px;
+    font-size: 25px;
+    color: white;
+ }
+ 
+ .buttons-20{
+    display: flex;
+            justify-content: center;
+        position: absolute;
+        left: 750px;
+        bottom: -6880px;
+ }   
+ 
+  .buttons-20 a{
+    margin: 10px;
+        height: 40px;
+        width: 15rem;
+        
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+  }
+  .btn20{
+    color: white;
+    background-color: rgb(27, 119, 216);
+  }
+  .btn21{
+    color: black;
+    background-color: white;
+  }
+  .background-25{
+    width: 1889px;
+    height: 980px;
+  }
+  .header-25{
+    position: absolute;
+    left: 800px;
+    bottom: -7050px;
+    font-size: 45px;
+    color: white;
+
+  }
+
+.buttons-25{
+    display: flex;
+    justify-content: center;
+   position: absolute;
+    left: 750px;
+     bottom: -7860px; 
+}
+.buttons-25 a{
+    margin: 10px;
+        height: 40px;
+        width: 15rem;
+        
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .5rem;
+}
+.btn25{
+    color: white;
+    background-color: rgb(27, 119, 216);
+}
+.btn26{
+    color: black;
+   background-color: white;
+}
+.background-29{
+    width: 1889px;
+    height: 980px;
+
+}
+.header-29{
+    position: absolute;
+    left: 800px;
+    bottom: -8030px;
+    font-size: 45px;
+    color: white;
+
+}
+.buttons-29{
+    display: flex;
+    justify-content: center;
+   position: absolute;
+    left: 800px;
+     bottom: -8850px; 
+}
+.buttons-29 a{
+    margin: 10px;
+    height: 40px;
+    width: 15rem;
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+.btn29{
+    color: white;
+    background-color: rgb(27, 119, 216);
+    font-size: 15px;
+}
+.background-clip-2{
+    width: 102.5%;
+    height: 100%;
+}
+.header-67{
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     left: 55px;
+     bottom: -9643px;
+     font-size: 32px;
+     color: white;
+     letter-spacing: 0 0 0rem;
+     font-weight: bold;
+}
+.btn-67{
+    margin: 10x;
+       text-decoration: none;
+       display: flex;
+     border-radius: .5rem;
+     position: absolute;
+     left: 75px;
+     bottom: -9699px;
+     background-color:  white;
+     padding: 13px;
+     width: 200px;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     
+     }
+       .note-2{
+        font-size: 13px;
+        position: absolute;
+        left: 600px;
+        bottom: -10030px;
+        font-weight: lighter;
+       }
+       .note-3{
+        font-size: 13px;
+        position: absolute;
+        left: 600px;
+        bottom: -10095px;
+        font-weight: lighter;
+       }
+       .note-4{
+        font-size: 13px;
+        position: absolute;
+        left: 600px;
+        bottom: -10203px;
+        font-weight: lighter;
+       }
+       .note-5{
+        font-size: 13px;
+        position: absolute;
+        left: 600px;
+        bottom: -10284px;
+        font-weight: lighter;
+       }
+       .note-6{
+        font-size: 13px;
+        position: absolute;
+        left: 650px;
+        bottom: -10364px;
+        font-weight: lighter;
+       }
+
+
+
+
+       
